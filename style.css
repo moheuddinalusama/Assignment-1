@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+  /* shared style */
+
+  .btn{
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    background-color: #469165;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+
+  button{
+    color: #FFFFFF;
+  }
+/* main style */
+
+
+
+body{
+  font-family: "Open Sans", sans-serif;
+  
+}
+nav{
+    max-width: 1600px;
+    height: 92px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 16px 120px;
+}
+nav img{
+    width: 139px;
+}
+ul{
+    display: flex;
+    gap: 32px;
+}
+ul li {
+    list-style: none;
+  
+}
+ul li a {
+text-decoration: none;
+font-size: 16px;
+ 
+}
+.hero{
+      background-image: url(imajes/hero-bg.png);
+    width: 1600px;
+    height: 674px;
+    box-sizing: border-box;
+    padding:123px 341px 0px 314px;
+    max-width: 100%;
+    /* text-align: center; */
+    margin: 0;
+}
+
+
+
+.frist{
+   text-align: center;
+   padding: 10px 20px;
+   color: #469165;
+     width: 229px;
+     margin: 0 auto;
+     border-radius:50px;
+     background-color:#FFFFFF ;
+   font-size: 16px;
+}
+
+.button3{ 
+
+   padding: 10px 20px;
+   color: #000402;
+     width: 229px;
+     border-radius:50px;
+     background-color:#663737 ;
+   font-size: 16px; 
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.Structured h1{
+margin: 0 auto;
+width: 770px;
+text-align: center;
+font-size: 72px;
+font-weight: 700;
+line-height: 84px;
+}
+.private{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    width: 970px;
+   margin-top: 16px;
+}
+.button0{
+  display: flex;
+ margin-top: 32px;
+text-align: center;
+justify-content: center;
+gap: 16px;
+}
+
+.button1{
+     width: 251px;
+    height: 52px;
+    border-radius: 4px;
+    background-color: #469165;
+    border: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 16px;
+     cursor: pointer;
+  }
+  .button2{
+     width: 198px;
+    height: 52px;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    font-size: 16px;
+    padding: 12px 16px;
+    background-color: #ff000000;
+     cursor: pointer;
+  }
+
+.Notes{
+width: 1600px;
+max-width: 100%;
+
+}
+.Notes h1{
+  color: #001931;
+  font-size: 48px;
+  font-weight:700 ;
+  text-align:center ;
+  margin-top: 63px;
+}
+.bad{
+  color: #627382;
+  font-size: 16px;
+  text-align:center ;
+  margin-top: 16px;
+}
+.Scattered img{
+  background-color: #F95555;
+  padding: 10px;
+  border-radius: 60%;
+}
+.Scattered{
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  margin-top: 44px;
+}
+.Notes-container{
+  display: flex;
+  justify-content: space-around;
+}
