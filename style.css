@@ -7,7 +7,7 @@
 
   /* shared style */
 
-  .btn{
+   .btn{
     width: 164px;
     height: 44px;
     border-radius: 4px;
@@ -16,7 +16,7 @@
     font-size: 16px;
     color: #FFFFFF;
     cursor: pointer;
-  }
+  } 
    
 
 .Early button{
@@ -86,15 +86,20 @@ font-size: 16px;
 
 
 
+.frist:hover{
+  background-color: #bfffdb;
+}
+
 .frist{
    text-align: center;
    padding: 10px 20px;
    color: #469165;
-     width: 229px;
+     width: 250px;
      margin: 0 auto;
      border-radius:50px;
      background-color:#FFFFFF ;
    font-size: 16px;
+   cursor: pointer;
 }
 
 .button3{ 
