@@ -17,11 +17,12 @@
     color: #FFFFFF;
     cursor: pointer;
   }
+   
 
 .Early button{
      text-align: center;
     border-radius: 4px;
-    background-color: #469165;
+    background-color: #387953;
     border: none;
     padding:12px 16px ;
     font-size: 16px;
@@ -34,6 +35,11 @@
   button{
     color: #FFFFFF;
   }
+ button:hover{
+
+  background-color: #285e3f;
+ }
+
 /* main style */
 
 
@@ -103,7 +109,12 @@ font-size: 16px;
   display: flex;
   justify-content: center;
 }
+.button3:hover{
+  
+    background-color: #2a593e;
 
+
+}
 
 
 .Structured h1{
