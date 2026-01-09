@@ -43,7 +43,8 @@ body{
   
 }
 nav{
-    max-width: 1600px;
+   width: 1600px;
+   max-width: 100%;
     height: 92px;
     display: flex;
     justify-content: space-between;
@@ -226,7 +227,7 @@ width: 20px;
 width:1600px ;
 height:506px ;
 text-align: center;
-
+max-width: 100%;
 }
 
 .Ready h1{
@@ -243,4 +244,44 @@ font-weight:400 ;
 text-align: center;
 margin-top: 16px;
 line-height: 24px;
+}
+.footer{
+  width: 1600px;
+  max-width: 100%;
+  height: 348px;
+  background-color: #001931;
+  padding: 120px 120px 30px 120px;
+}
+.imaget{
+  display: flex;
+  justify-content:space-between;
+  width: 1360px;
+  height: 64px;
+  max-width: 100%;
+}
+.sosal p{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.sosal i{
+  font-size: 20px;
+  font-weight: 500;
+  color: #FFFFFF;
+  margin-top: 10px;
+}
+.footer p{
+
+  color: #FAFAFA;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 400;
+}
+hr{
+  width: 1360px;
+  color: #3f4b57;
+border: 1px solid #3f4b57;
+margin-top: 80px;
+max-width: 100%;
 }
